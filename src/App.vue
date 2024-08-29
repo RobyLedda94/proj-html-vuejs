@@ -17,20 +17,23 @@ export default {
 </script>
 
 <template>
-  <header>
+  
     <AppHeader />
-  </header>
+  
 
-  <main>
+  
     <AppMain />
-  </main>
+  
 
-  <footer>
+ 
     <AppFooter />
-  </footer>
+  
   
 </template>
 
 <style lang="scss">
 @use './styles/generals.scss'
+
+
+
 </style>
