@@ -71,7 +71,7 @@ export default {
                     <div class="content-main-top-cars"></div>
                 </div>
             </div>
-            <div class="row g-0">
+            <div class="row g-0 mb-5">
                 <div class="col-3">
                     <div class="content-main-top-cars"></div>
                 </div>
@@ -84,8 +84,89 @@ export default {
                 <div class="col-3">
                     <div class="content-main-top-cars"></div>
                 </div>
+                <div class="col-12 mt-2">
+                    <div class="content-main text-center">
+                        <button type="button" class="buttons btn-dark">Show All Cars</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="container-sm">
+            <div class="row">
+                <div class="col-8">
+                    <div class="content-main-sm">
+
+                    </div>
+                </div>
+                <div class="col-4">
+                    <div class="content-main-sm">
+
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="jumbotron mb-5">
+            <div class="container">
+                <div class="row gy-3">
+                    <div class="col-12">
+                        <div class="content-main-jumbo">
+    
+                        </div>
+                    </div>
+                    <div class="col-3">
+                        <div class="content-main-jumbo-cards">
+    
+                        </div>
+                    </div>
+                    <div class="col-3">
+                        <div class="content-main-jumbo-cards">
+    
+                        </div>
+                    </div>
+                    <div class="col-3">
+                        <div class="content-main-jumbo-cards">
+    
+                        </div>
+                    </div>
+                    <div class="col-3">
+                        <div class="content-main-jumbo-cards">
+    
+                        </div>
+                    </div>
+                    <div class="col-12">
+                        <div class="content-main-jumbo mb-3">
+    
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="container mb-5">
+            <div class="row gy-2">
                 <div class="col-12">
-                    
+                    <div class="content-main-bottom">
+
+                    </div>
+                </div>
+                <div class="col-3">
+                    <div class="content-main-bottom-cards">
+                        
+                    </div>
+                </div>
+                <div class="col-3">
+                    <div class="content-main-bottom-cards">
+                        
+                    </div>
+                </div>
+                <div class="col-3">
+                    <div class="content-main-bottom-cards">
+                        
+                    </div>
+                </div>
+                <div class="col-3">
+                    <div class="content-main-bottom-cards">
+                        
+                    </div>
                 </div>
             </div>
         </div>
@@ -122,5 +203,68 @@ export default {
     background-color: red;
     border: 1px solid black;
 }
+
+.content-main{
+    background-color: red;
+    border: 1px solid black;
+    .buttons{
+        padding: 12px 25px;
+        color: #fff;
+        background-color: black;
+        border: none;
+        font-size: 12px;
+        font-weight: bold;
+    }
+}
+
+.container-sm{
+    padding: 0 70px;
+    margin-bottom: 70px;
+    .content-main-sm{
+        height: 450px;
+        background-color: red;
+        border: 1px solid black;
+    }
+
+}
+
+.jumbotron{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 700px;
+    background-image: url('../assets/slider-autocar-6.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    .content-main-jumbo{
+        height: 80px;
+        background-color: red;
+        border: 1px solid black;
     
+    }
+    .content-main-jumbo-cards{
+        height: 300px;
+        background-color: red;
+        border: 1px solid black;
+    }
+
+}
+
+.content-main-bottom{
+    height: 150px;
+    background-color: red;
+    border: 1px solid black;
+}
+
+.content-main-bottom-cards{
+    height: 300px;
+    background-color: red;
+    border: 1px solid black;
+}
+
+
+
+
+
 </style>
