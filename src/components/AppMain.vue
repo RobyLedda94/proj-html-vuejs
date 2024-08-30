@@ -26,62 +26,62 @@ export default {
                 </div>
             </div>
             <div class="row g-0">
-                <div class="col-2">
+                <div class="col-12 col-md-4 col-lg-2">
                     <div class="content-main-top-type">
 
                     </div>
                 </div>
-                <div class="col-2">
+                <div class="col-12 col-md-4 col-lg-2">
                     <div class="content-main-top-type">
 
                     </div>
                 </div>
-                <div class="col-2">
+                <div class="col-12 col-md-4 col-lg-2">
                     <div class="content-main-top-type">
 
                     </div>
                 </div>
-                <div class="col-2">
+                <div class="col-12 col-md-4 col-lg-2">
                     <div class="content-main-top-type">
 
                     </div>
                 </div>
-                <div class="col-2">
+                <div class="col-12 col-md-4 col-lg-2">
                     <div class="content-main-top-type">
 
                     </div>
                 </div>
-                <div class="col-2">
+                <div class="col-12 col-md-4 col-lg-2">
                     <div class="content-main-top-type">
 
                     </div>
                 </div>
             </div>
             <div class="row g-0 mb-3">
-                <div class="col-3">
+                <div class="col-12 col-md-6 col-lg-3">
                     <div class="content-main-top-cars"></div>
                 </div>
-                <div class="col-3">
+                <div class="col-12 col-md-6 col-lg-3">
                     <div class="content-main-top-cars"></div>
                 </div>
-                <div class="col-3">
+                <div class="col-12 col-md-6 col-lg-3">
                     <div class="content-main-top-cars"></div>
                 </div>
-                <div class="col-3">
+                <div class="col-12 col-md-6 col-lg-3">
                     <div class="content-main-top-cars"></div>
                 </div>
             </div>
             <div class="row g-0 mb-5">
-                <div class="col-3">
+                <div class="col-12 col-md-6 col-lg-3">
                     <div class="content-main-top-cars"></div>
                 </div>
-                <div class="col-3">
+                <div class="col-12 col-md-6 col-lg-3">
                     <div class="content-main-top-cars"></div>
                 </div>
-                <div class="col-3">
+                <div class="col-12 col-md-6 col-lg-3">
                     <div class="content-main-top-cars"></div>
                 </div>
-                <div class="col-3">
+                <div class="col-12 col-md-6 col-lg-3">
                     <div class="content-main-top-cars"></div>
                 </div>
                 <div class="col-12 mt-2">
@@ -93,12 +93,12 @@ export default {
         </div>
         <div class="container-sm">
             <div class="row">
-                <div class="col-8">
+                <div class="col-12 col-lg-8">
                     <div class="content-main-sm">
 
                     </div>
                 </div>
-                <div class="col-4">
+                <div class="col-12 col-lg-4">
                     <div class="content-main-sm">
 
                     </div>
@@ -113,22 +113,22 @@ export default {
     
                         </div>
                     </div>
-                    <div class="col-3">
+                    <div class="col-12 col-md-6 col-lg-3">
                         <div class="content-main-jumbo-cards">
     
                         </div>
                     </div>
-                    <div class="col-3">
+                    <div class="col-12 col-md-6 col-lg-3">
                         <div class="content-main-jumbo-cards">
     
                         </div>
                     </div>
-                    <div class="col-3">
+                    <div class="col-12 col-md-6 col-lg-3">
                         <div class="content-main-jumbo-cards">
     
                         </div>
                     </div>
-                    <div class="col-3">
+                    <div class="col-12 col-md-6 col-lg-3">
                         <div class="content-main-jumbo-cards">
     
                         </div>
@@ -148,22 +148,22 @@ export default {
 
                     </div>
                 </div>
-                <div class="col-3">
+                <div class="col-12 col-md-6 col-lg-3">
                     <div class="content-main-bottom-cards">
                         
                     </div>
                 </div>
-                <div class="col-3">
+                <div class="col-12 col-md-6 col-lg-3">
                     <div class="content-main-bottom-cards">
                         
                     </div>
                 </div>
-                <div class="col-3">
+                <div class="col-12 col-md-6 col-lg-3">
                     <div class="content-main-bottom-cards">
                         
                     </div>
                 </div>
-                <div class="col-3">
+                <div class="col-12 col-md-6 col-lg-3">
                     <div class="content-main-bottom-cards">
                         
                     </div>
@@ -178,7 +178,9 @@ export default {
 .content-main-top-li{
     padding: 25px 0;
     .list-unstyled li{
-        flex-basis: calc(100% / 8); 
+        font-size: 12px;
+        flex-basis: calc(100% / 8);
+        max-width: calc(100% / 8);
         flex-grow: 1;
         padding: 15px;
         border: 1px solid black;
@@ -229,10 +231,7 @@ export default {
 }
 
 .jumbotron{
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    height: 700px;
+    padding:50px 0;
     background-image: url('../assets/slider-autocar-6.jpg');
     background-size: cover;
     background-position: center;

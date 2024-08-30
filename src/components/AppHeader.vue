@@ -8,8 +8,13 @@ export default {
 <template lang="">
     <header>
         <div class="container">
-            <div class="row">
-                <div class="col-12">
+            <div class="row gx-0">
+                <div class="col-12 col-sm-6">
+                    <div class="content-header">
+                        <!-- logo + ul + icone -->
+                    </div>
+                </div>
+                <div class="col-12 col-sm-6">
                     <div class="content-header">
                         <!-- logo + ul + icone -->
                     </div>

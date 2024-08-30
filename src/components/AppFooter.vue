@@ -9,22 +9,22 @@ export default {
     <footer>
         <div class="container">
             <div class="row gy-3">
-                <div class="col-2">
+                <div class="col-12 col-md-6 col-lg-2">
                     <div class="content-footer">
 
                     </div>
                 </div>
-                <div class="col-6">
+                <div class="col-12 col-md-6">
                     <div class="content-footer">
 
                     </div>
                 </div>
-                <div class="col-2">
+                <div class="col-12 col-md-6 col-lg-2">
                     <div class="content-footer">
 
                     </div>
                 </div>
-                <div class="col-2">
+                <div class="col-12 col-md-6 col-lg-2">
                     <div class="content-footer">
 
                     </div>
