@@ -1,12 +1,12 @@
 
 <script>
 export default {
-    // definisco la props
+    // definisco la props della lista
     props: {
         menuItems: {
             type: Array,
             required: true
-        }
+        },
     }
 }
 </script>
@@ -53,7 +53,9 @@ export default {
                 <div class="row">
                     <div class="col-12">
                         <div class="content-jumbo">
-                            <!-- contenuto + immagine di sfondo -->
+                            <h1>Buy Ans Sell Your <br> Car At Its Value</h1>
+                            <p>Find the right price and dealer</p>
+                            <button type="button" class="buttons btn-dark">Learn More<i class="fas fa-arrow-right" ></i></button>
                         </div>
                     </div>
                 </div>
@@ -139,8 +141,37 @@ header {
         background-position: center;
         background-repeat: no-repeat;
         .content-jumbo{
+            color: #fff;
             height: 700px;
-            border: 1px dashed white ;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            h1 {
+                font-size: 40px;
+                font-weight: bold;
+            }
+            p{
+                font-size: 15px;
+                font-weight: bold;
+            }
+            .buttons{
+                padding: 10px 0;
+                max-width: 200px;
+                display: flex;
+                align-items: center; 
+                padding: 12px 25px;
+                color: #fff;
+                background-color: rgb(29, 29, 29);
+                border: none;
+                font-size: 12px;
+                font-weight: bold;
+                cursor: pointer;
+                text-align: center;
+                gap: 8px; 
+                i {
+                    font-size: 16px; // Dimensione dell'icona
+                }
+            }
         }
     }
 

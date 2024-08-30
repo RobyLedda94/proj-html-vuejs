@@ -24,10 +24,6 @@ export default {
         { text: 'Blog', href: '#'},
         { text: 'Contact', href: '#'},
       ],
-      // array per i bottoni testo e immagini
-      buttonItem: [
-        
-      ],
     };
   }
 }
