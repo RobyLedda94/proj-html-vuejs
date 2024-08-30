@@ -8,6 +8,7 @@ export default {
 
 <template lang="">
     <main>
+        <!-- sezione top main -->
         <div class="container">
             <div class="row">
                 <div class="col-12">
@@ -15,74 +16,114 @@ export default {
                         <ul class="list-unstyled d-flex justify-content-between align-items-center mb-0">
                             <li>Keywords</li>
                             <li>Location</li>
-                            <li>All Categories</li>
-                            <li>Brand</li>
-                            <li>Fuel Type</li>
-                            <li>Trasmission</li>
-                            <li>Status</li>
+                            <li>
+                                All Categories
+                                <i class="fas fa-sort-down"></i>
+                            </li>
+                            <li>
+                                Brand
+                                <i class="fas fa-sort-down"></i>
+                            </li>
+                            <li>
+                                Fuel Type
+                                <i class="fas fa-sort-down"></i>
+                            </li>
+                            <li>
+                                Trasmission
+                                <i class="fas fa-sort-down"></i>
+                            </li>
+                            <li>
+                                Status
+                                <i class="fas fa-sort-down"></i>
+                            </li>
                             <li>Search</li>
                           </ul>
                     </div>
                 </div>
             </div>
-            <div class="row g-0">
+            <div class="row g-0 my-3">
                 <div class="col-12 col-md-4 col-lg-2">
                     <div class="content-main-top-type">
-
+                        <img class="img-fluid" src="../assets/cabrio.jpg"/>
+                        <div class="text-content">
+                            <p class="title mb-0">Cabrio</p>
+                            <p class="listings mb-2">3 Listings</p>
+                        </div>
                     </div>
                 </div>
                 <div class="col-12 col-md-4 col-lg-2">
                     <div class="content-main-top-type">
-
+                        <img class="img-fluid" src="../assets/coupe.jpg"/>
+                        <div class="text-content">
+                            <p class="title mb-0">Cabrio</p>
+                            <p class="listings mb-2">3 Listings</p>
+                        </div>
                     </div>
                 </div>
                 <div class="col-12 col-md-4 col-lg-2">
                     <div class="content-main-top-type">
-
+                        <img class="img-fluid" src="../assets/hatchback.jpg"/>
+                        <div class="text-content">
+                            <p class="title mb-0">Cabrio</p>
+                            <p class="listings mb-2">3 Listings</p>
+                        </div>
                     </div>
                 </div>
                 <div class="col-12 col-md-4 col-lg-2">
                     <div class="content-main-top-type">
-
+                        <img class="img-fluid" src="../assets/pickup.jpg"/>
+                        <div class="text-content">
+                            <p class="title mb-0">Cabrio</p>
+                            <p class="listings mb-2">3 Listings</p>
+                        </div>
                     </div>
                 </div>
                 <div class="col-12 col-md-4 col-lg-2">
                     <div class="content-main-top-type">
-
+                        <img class="img-fluid" src="../assets/sedan.jpg"/>
+                        <div class="text-content">
+                            <p class="title mb-0">Cabrio</p>
+                            <p class="listings mb-2">3 Listings</p>
+                        </div>
                     </div>
                 </div>
                 <div class="col-12 col-md-4 col-lg-2">
                     <div class="content-main-top-type">
-
+                        <img class="img-fluid" src="../assets/suv.jpg"/>
+                        <div class="text-content">
+                            <p class="title mb-0">Cabrio</p>
+                            <p class="listings mb-2">3 Listings</p>
+                        </div>
                     </div>
                 </div>
             </div>
+            <!-- parte main center -->
             <div class="row g-0 mb-3">
                 <div class="col-12 col-md-6 col-lg-3">
-                    <div class="content-main-top-cars"></div>
+                    <div class="content-main-center-cars"></div>
                 </div>
                 <div class="col-12 col-md-6 col-lg-3">
-                    <div class="content-main-top-cars"></div>
+                    <div class="content-main-center-cars"></div>
                 </div>
                 <div class="col-12 col-md-6 col-lg-3">
-                    <div class="content-main-top-cars"></div>
+                    <div class="content-main-center-cars"></div>
                 </div>
                 <div class="col-12 col-md-6 col-lg-3">
-                    <div class="content-main-top-cars"></div>
+                    <div class="content-main-center-cars"></div>
                 </div>
             </div>
             <div class="row g-0 mb-5">
                 <div class="col-12 col-md-6 col-lg-3">
-                    <div class="content-main-top-cars"></div>
+                    <div class="content-main-center-cars"></div>
                 </div>
                 <div class="col-12 col-md-6 col-lg-3">
-                    <div class="content-main-top-cars"></div>
+                    <div class="content-main-center-cars"></div>
                 </div>
                 <div class="col-12 col-md-6 col-lg-3">
-                    <div class="content-main-top-cars"></div>
+                    <div class="content-main-center-cars"></div>
                 </div>
                 <div class="col-12 col-md-6 col-lg-3">
-                    <div class="content-main-top-cars"></div>
+                    <div class="content-main-center-cars"></div>
                 </div>
                 <div class="col-12 mt-2">
                     <div class="content-main text-center">
@@ -182,32 +223,52 @@ export default {
         flex-wrap: nowrap;
         justify-content: space-between;
         li {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            position: relative; 
             font-size: 12px;
             flex-basis: calc(100% / 8);
             max-width: calc(100% / 8);
             flex-grow: 0;
             padding: 15px;
-            border: 1px solid black;
-            background-color: red;
-            text-align: center;
+            border: 1px solid #aaa;
+            color: #aaa;
             border-radius: 5px;
             margin: 0 5px;
-            white-space: nowrap; 
-            overflow: hidden; 
-            text-overflow: ellipsis; 
+            white-space: nowrap;
+            overflow: hidden;
+            text-overflow: ellipsis;
+            text-align: center; 
+            i{
+                position: absolute;
+                right: 10px; 
+            } 
+            &:hover{
+                background-color: black;
+                color: #fff;
+                font-weight: bold;
+            }
         }
     }
 }
 
 .content-main-top-type{
-    width: 100%;
-    height: 200px;
-    margin-bottom: 20px;
-    background-color: red;
-    border: 1px solid black;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    border: 1px solid #aaa;
+    overflow: hidden; 
+    background-color: #fff;
+    border: 1px solid #eee;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    .listings{
+        font-size: 12px;
+    }
 }
 
-.content-main-top-cars{
+.content-main-center-cars{
     width: 100%;
     height: 250px;
     background-color: red;

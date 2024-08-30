@@ -47,6 +47,7 @@ export default {
             </div>
         </div>
     </header>
+    <!-- da definire il funzionamento slider (rivedere la struttura statica poi implementiamo la logica) -->
     <div class="jumbotron">
         <div class="sfondo">
             <div class="container">
