@@ -97,33 +97,209 @@ export default {
                     </div>
                 </div>
             </div>
-            <!-- parte main center -->
+            <!-- parte main center carte auto -->
             <div class="row g-0 mb-3">
                 <div class="col-12 col-md-6 col-lg-3">
-                    <div class="content-main-center-cars"></div>
+                    <div class="content-main-center-card">
+                        <img class='card-img-top' src="../assets/bmw-8-series-convertible-technical-data-sp-desktop-400x300.jpg"/>
+                        <div class="card-body">
+                            <div class='card-description'>
+                                <p class='model'>BMW M9<i class="fas fa-check"></i></p>
+                                <p>Cabrio</p>   
+                            </div>
+                            <div class="card-details d-flex">
+                                <div class='price'>
+                                    <i class="fas fa-dollar-sign"></i> 34,000
+                                </div>
+                                <div class='brand'>
+                                    <i class="fas fa-car"></i> BMW
+                                </div>
+                                <div class='fuel'>
+                                    <i class="fas fa-gas-pump"></i> Electric
+                                </div>
+                                <div class='heart'>
+                                    <i class="fas fa-heart"></i>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
                 </div>
                 <div class="col-12 col-md-6 col-lg-3">
-                    <div class="content-main-center-cars"></div>
+                    <div class="content-main-center-card">
+                        <img class='card-img-top' src="../assets/bmw-8-series-convertible-technical-data-sp-desktop-400x300.jpg"/>
+                        <div class="card-body">
+                            <div class='card-description'>
+                                <p class='model'>BMW M9<i class="fas fa-check"></i></p>
+                                <p>Cabrio</p>   
+                            </div>
+                            <div class="card-details d-flex">
+                                <div class='price'>
+                                    <i class="fas fa-dollar-sign"></i> 34,000
+                                </div>
+                                <div class='brand'>
+                                    <i class="fas fa-car"></i> BMW
+                                </div>
+                                <div class='fuel'>
+                                    <i class="fas fa-gas-pump"></i> Electric
+                                </div>
+                                <div class='heart'>
+                                    <i class="fas fa-heart"></i>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
                 </div>
                 <div class="col-12 col-md-6 col-lg-3">
-                    <div class="content-main-center-cars"></div>
+                    <div class="content-main-center-card">
+                        <img class='card-img-top' src="../assets/bmw-8-series-convertible-technical-data-sp-desktop-400x300.jpg"/>
+                        <div class="card-body">
+                            <div class='card-description'>
+                                <p class='model'>BMW M9<i class="fas fa-check"></i></p>
+                                <p>Cabrio</p>   
+                            </div>
+                            <div class="card-details d-flex">
+                                <div class='price'>
+                                    <i class="fas fa-dollar-sign"></i> 34,000
+                                </div>
+                                <div class='brand'>
+                                    <i class="fas fa-car"></i> BMW
+                                </div>
+                                <div class='fuel'>
+                                    <i class="fas fa-gas-pump"></i> Electric
+                                </div>
+                                <div class='heart'>
+                                    <i class="fas fa-heart"></i>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
                 </div>
                 <div class="col-12 col-md-6 col-lg-3">
-                    <div class="content-main-center-cars"></div>
+                    <div class="content-main-center-card">
+                        <img class='card-img-top' src="../assets/bmw-8-series-convertible-technical-data-sp-desktop-400x300.jpg"/>
+                        <div class="card-body">
+                            <div class='card-description'>
+                                <p class='model'>BMW M9<i class="fas fa-check"></i></p>
+                                <p>Cabrio</p>   
+                            </div>
+                            <div class="card-details d-flex">
+                                <div class='price'>
+                                    <i class="fas fa-dollar-sign"></i> 34,000
+                                </div>
+                                <div class='brand'>
+                                    <i class="fas fa-car"></i> BMW
+                                </div>
+                                <div class='fuel'>
+                                    <i class="fas fa-gas-pump"></i> Electric
+                                </div>
+                                <div class='heart'>
+                                    <i class="fas fa-heart"></i>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
                 </div>
             </div>
             <div class="row g-0 mb-5">
                 <div class="col-12 col-md-6 col-lg-3">
-                    <div class="content-main-center-cars"></div>
+                    <div class="content-main-center-card">
+                        <img class='card-img-top' src="../assets/bmw-8-series-convertible-technical-data-sp-desktop-400x300.jpg"/>
+                        <div class="card-body">
+                            <div class='card-description'>
+                                <p class='model'>BMW M9<i class="fas fa-check"></i></p>
+                                <p>Cabrio</p>   
+                            </div>
+                            <div class="card-details d-flex">
+                                <div class='price'>
+                                    <i class="fas fa-dollar-sign"></i> 34,000
+                                </div>
+                                <div class='brand'>
+                                    <i class="fas fa-car"></i> BMW
+                                </div>
+                                <div class='fuel'>
+                                    <i class="fas fa-gas-pump"></i> Electric
+                                </div>
+                                <div class='heart'>
+                                    <i class="fas fa-heart"></i>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
                 </div>
                 <div class="col-12 col-md-6 col-lg-3">
-                    <div class="content-main-center-cars"></div>
+                    <div class="content-main-center-card">
+                        <img class='card-img-top' src="../assets/bmw-8-series-convertible-technical-data-sp-desktop-400x300.jpg"/>
+                        <div class="card-body">
+                            <div class='card-description'>
+                                <p class='model'>BMW M9<i class="fas fa-check"></i></p>
+                                <p>Cabrio</p>   
+                            </div>
+                            <div class="card-details d-flex">
+                                <div class='price'>
+                                    <i class="fas fa-dollar-sign"></i> 34,000
+                                </div>
+                                <div class='brand'>
+                                    <i class="fas fa-car"></i> BMW
+                                </div>
+                                <div class='fuel'>
+                                    <i class="fas fa-gas-pump"></i> Electric
+                                </div>
+                                <div class='heart'>
+                                    <i class="fas fa-heart"></i>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
                 </div>
                 <div class="col-12 col-md-6 col-lg-3">
-                    <div class="content-main-center-cars"></div>
+                    <div class="content-main-center-card">
+                        <img class='card-img-top' src="../assets/bmw-8-series-convertible-technical-data-sp-desktop-400x300.jpg"/>
+                        <div class="card-body">
+                            <div class='card-description'>
+                                <p class='model'>BMW M9<i class="fas fa-check"></i></p>
+                                <p>Cabrio</p>   
+                            </div>
+                            <div class="card-details d-flex">
+                                <div class='price'>
+                                    <i class="fas fa-dollar-sign"></i> 34,000
+                                </div>
+                                <div class='brand'>
+                                    <i class="fas fa-car"></i> BMW
+                                </div>
+                                <div class='fuel'>
+                                    <i class="fas fa-gas-pump"></i> Electric
+                                </div>
+                                <div class='heart'>
+                                    <i class="fas fa-heart"></i>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
                 </div>
                 <div class="col-12 col-md-6 col-lg-3">
-                    <div class="content-main-center-cars"></div>
+                    <div class="content-main-center-card">
+                        <img class='card-img-top' src="../assets/bmw-8-series-convertible-technical-data-sp-desktop-400x300.jpg"/>
+                        <div class="card-body">
+                            <div class='card-description'>
+                                <p class='model'>BMW M9<i class="fas fa-check"></i></p>
+                                <p>Cabrio</p>   
+                            </div>
+                            <div class="card-details d-flex">
+                                <div class='price'>
+                                    <i class="fas fa-dollar-sign"></i> 34,000
+                                </div>
+                                <div class='brand'>
+                                    <i class="fas fa-car"></i> BMW
+                                </div>
+                                <div class='fuel'>
+                                    <i class="fas fa-gas-pump"></i> Electric
+                                </div>
+                                <div class='heart'>
+                                    <i class="fas fa-heart"></i>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
                 </div>
                 <div class="col-12 mt-2">
                     <div class="content-main text-center">
@@ -268,15 +444,44 @@ export default {
     }
 }
 
-.content-main-center-cars{
-    width: 100%;
-    height: 250px;
-    background-color: red;
-    border: 1px solid black;
+.content-main-center-card{
+    border: 1px solid #ddd;
+    overflow: hidden; 
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    background-color: #fff;
+    padding: 10px;
+    position: relative;
+    .card-body{
+        font-size: 13px;
+        .card-description{
+            margin-top: 5px;
+            i{
+                background-color: black; 
+                color: white;
+                padding: 3px;
+                border-radius: 50%;
+                margin-left: 3px;
+                font-size: 12px;
+            }
+        }
+        .card-img-top{
+            width: 100%;
+            height: auto;
+        }
+        .card-details div{
+            margin: 0 5px 0 0;
+        }
+        .heart{
+            position: absolute;
+            right: 0;
+            color: #aaa;
+        }
+    }
+
+
 }
 
 .content-main{
-    background-color: red;
     border: 1px solid black;
     .buttons{
         padding: 12px 25px;
@@ -293,7 +498,6 @@ export default {
     margin-bottom: 70px;
     .content-main-sm{
         height: 450px;
-        background-color: red;
         border: 1px solid black;
     }
 
@@ -307,13 +511,11 @@ export default {
     background-repeat: no-repeat;
     .content-main-jumbo{
         height: 80px;
-        background-color: red;
         border: 1px solid black;
     
     }
     .content-main-jumbo-cards{
         height: 300px;
-        background-color: red;
         border: 1px solid black;
     }
 
@@ -321,13 +523,11 @@ export default {
 
 .content-main-bottom{
     height: 150px;
-    background-color: red;
     border: 1px solid black;
 }
 
 .content-main-bottom-cards{
     height: 300px;
-    background-color: red;
     border: 1px solid black;
 }
 

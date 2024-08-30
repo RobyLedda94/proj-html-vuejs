@@ -46,13 +46,11 @@ footer{
     .container{
         .content-footer{
             height: 250px;
-            background-color: red;
-            border: 1px solid black;
+            border: 1px solid white;
         }
         .content-footer-bottom{
             height: 100px;
-            background: red;
-            border: 1px solid black;
+            border: 1px solid white;
         }
     }
 }
