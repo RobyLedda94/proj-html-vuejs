@@ -11,14 +11,32 @@ export default {
     AppHeader,
     AppMain,
     AppFooter
+  },
+  data () {
+    return {
+      // array per le voci della lista appheader
+      menuItems: [
+        { text: 'Home', href: '#'},
+        { text: 'About Us', href: '#'},
+        { text: 'Vehicles', href: '#'},
+        { text: 'Dealers', href: '#'},
+        { text: 'Packages', href: '#'},
+        { text: 'Blog', href: '#'},
+        { text: 'Contact', href: '#'},
+      ],
+      // array per i bottoni testo e immagini
+      buttonItem: [
+        
+      ],
+    };
   }
 }
 
 </script>
 
 <template>
-  
-    <AppHeader />
+    <!-- ciclo la componenete  -->
+    <AppHeader :menuItems="menuItems"/>
   
 
   

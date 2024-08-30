@@ -1,7 +1,13 @@
 
 <script>
 export default {
-    
+    // definisco la props
+    props: {
+        menuItems: {
+            type: Array,
+            required: true
+        }
+    }
 }
 </script>
 
@@ -13,13 +19,9 @@ export default {
                     <div class="content-header">
                         <img src="../assets/logo-autocar11.png" alt="Logo" class="logo"/>
                         <ul class="nav-list list-unstyled">
-                            <li><a href="#">Home</a></li>
-                            <li><a href="#">About Us</a></li>
-                            <li><a href="#">Vehicles</a></li>
-                            <li><a href="#">Dealers</a></li>
-                            <li><a href="#">Packages</a></li>
-                            <li><a href="#">Blog</a></li>
-                            <li><a href="#">Contact</a></li>
+                            <li v-for="item in menuItems" :key="item.text">
+                                <a :href="item.href">{{item.text}}</a>
+                            </li>
                         </ul>
                     </div>
                 </div>
