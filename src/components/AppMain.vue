@@ -126,10 +126,10 @@ export default {
                 </div>
                 <div class="col-12 col-md-6 col-lg-3">
                     <div class="content-main-center-card">
-                        <img class='card-img-top' src="../assets/bmw-8-series-convertible-technical-data-sp-desktop-400x300.jpg"/>
+                        <img class='card-img-top' src="../assets/bmw88-400x300.jpg"/>
                         <div class="card-body">
                             <div class='card-description'>
-                                <p class='model'>BMW M9<i class="fas fa-check"></i></p>
+                                <p class='model'>BMW M8<i class="fas fa-check"></i></p>
                                 <p>Cabrio</p>   
                             </div>
                             <div class="card-details d-flex">
@@ -140,7 +140,7 @@ export default {
                                     <i class="fas fa-car"></i> BMW
                                 </div>
                                 <div class='fuel'>
-                                    <i class="fas fa-gas-pump"></i> Electric
+                                    <i class="fas fa-gas-pump"></i> Diesel
                                 </div>
                                 <div class='heart'>
                                     <i class="fas fa-heart"></i>
@@ -151,10 +151,10 @@ export default {
                 </div>
                 <div class="col-12 col-md-6 col-lg-3">
                     <div class="content-main-center-card">
-                        <img class='card-img-top' src="../assets/bmw-8-series-convertible-technical-data-sp-desktop-400x300.jpg"/>
+                        <img class='card-img-top' src="../assets/bmw442-400x300.jpg"/>
                         <div class="card-body">
                             <div class='card-description'>
-                                <p class='model'>BMW M9<i class="fas fa-check"></i></p>
+                                <p class='model'>BMW M4<i class="fas fa-check"></i></p>
                                 <p>Cabrio</p>   
                             </div>
                             <div class="card-details d-flex">
@@ -165,7 +165,7 @@ export default {
                                     <i class="fas fa-car"></i> BMW
                                 </div>
                                 <div class='fuel'>
-                                    <i class="fas fa-gas-pump"></i> Electric
+                                    <i class="fas fa-gas-pump"></i> Gasoline
                                 </div>
                                 <div class='heart'>
                                     <i class="fas fa-heart"></i>
@@ -176,18 +176,18 @@ export default {
                 </div>
                 <div class="col-12 col-md-6 col-lg-3">
                     <div class="content-main-center-card">
-                        <img class='card-img-top' src="../assets/bmw-8-series-convertible-technical-data-sp-desktop-400x300.jpg"/>
+                        <img class='card-img-top' src="../assets/yeni-ibiza-2-400x300.jpg"/>
                         <div class="card-body">
                             <div class='card-description'>
-                                <p class='model'>BMW M9<i class="fas fa-check"></i></p>
-                                <p>Cabrio</p>   
+                                <p class='model'>Seat Ibiza<i class="fas fa-check"></i></p>
+                                <p>Hatchback</p>   
                             </div>
                             <div class="card-details d-flex">
                                 <div class='price'>
-                                    <i class="fas fa-dollar-sign"></i> 34,000
+                                    <i class="fas fa-dollar-sign"></i> 27,000
                                 </div>
                                 <div class='brand'>
-                                    <i class="fas fa-car"></i> BMW
+                                    <i class="fas fa-car"></i> Seat
                                 </div>
                                 <div class='fuel'>
                                     <i class="fas fa-gas-pump"></i> Electric
@@ -203,18 +203,43 @@ export default {
             <div class="row g-0 mb-5">
                 <div class="col-12 col-md-6 col-lg-3">
                     <div class="content-main-center-card">
-                        <img class='card-img-top' src="../assets/bmw-8-series-convertible-technical-data-sp-desktop-400x300.jpg"/>
+                        <img class='card-img-top' src="../assets/makyajli-2022-seat-arona-1-400x300.jpg"/>
                         <div class="card-body">
                             <div class='card-description'>
-                                <p class='model'>BMW M9<i class="fas fa-check"></i></p>
-                                <p>Cabrio</p>   
+                                <p class='model'>Seat Arona<i class="fas fa-check"></i></p>
+                                <p>SUV</p>   
                             </div>
                             <div class="card-details d-flex">
                                 <div class='price'>
-                                    <i class="fas fa-dollar-sign"></i> 34,000
+                                    <i class="fas fa-dollar-sign"></i> 68,000
                                 </div>
                                 <div class='brand'>
-                                    <i class="fas fa-car"></i> BMW
+                                    <i class="fas fa-car"></i> Seat
+                                </div>
+                                <div class='fuel'>
+                                    <i class="fas fa-gas-pump"></i> Gasoline
+                                </div>
+                                <div class='heart'>
+                                    <i class="fas fa-heart"></i>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 col-md-6 col-lg-3">
+                    <div class="content-main-center-card">
+                        <img class='card-img-top' src="../assets/vw-taigo3832-400x300.jpg"/>
+                        <div class="card-body">
+                            <div class='card-description'>
+                                <p class='model'>Volseagen Taigo<i class="fas fa-check"></i></p>
+                                <p>SUV</p>   
+                            </div>
+                            <div class="card-details d-flex">
+                                <div class='price'>
+                                    <i class="fas fa-dollar-sign"></i> 52,000
+                                </div>
+                                <div class='brand'>
+                                    <i class="fas fa-car"></i> Volseagen
                                 </div>
                                 <div class='fuel'>
                                     <i class="fas fa-gas-pump"></i> Electric
@@ -228,21 +253,21 @@ export default {
                 </div>
                 <div class="col-12 col-md-6 col-lg-3">
                     <div class="content-main-center-card">
-                        <img class='card-img-top' src="../assets/bmw-8-series-convertible-technical-data-sp-desktop-400x300.jpg"/>
+                        <img class='card-img-top' src="../assets/2019-vw-t-cross-400x300.jpg"/>
                         <div class="card-body">
                             <div class='card-description'>
-                                <p class='model'>BMW M9<i class="fas fa-check"></i></p>
-                                <p>Cabrio</p>   
+                                <p class='model'>Volswagen T-Cross<i class="fas fa-check"></i></p>
+                                <p>SUV</p>   
                             </div>
                             <div class="card-details d-flex">
                                 <div class='price'>
-                                    <i class="fas fa-dollar-sign"></i> 34,000
+                                    <i class="fas fa-dollar-sign"></i> 47,000
                                 </div>
                                 <div class='brand'>
-                                    <i class="fas fa-car"></i> BMW
+                                    <i class="fas fa-car"></i> Volswagen
                                 </div>
                                 <div class='fuel'>
-                                    <i class="fas fa-gas-pump"></i> Electric
+                                    <i class="fas fa-gas-pump"></i> Diesel
                                 </div>
                                 <div class='heart'>
                                     <i class="fas fa-heart"></i>
@@ -253,46 +278,21 @@ export default {
                 </div>
                 <div class="col-12 col-md-6 col-lg-3">
                     <div class="content-main-center-card">
-                        <img class='card-img-top' src="../assets/bmw-8-series-convertible-technical-data-sp-desktop-400x300.jpg"/>
+                        <img class='card-img-top' src="../assets/volkswagen-passat-1280x720-1-400x300.jpg"/>
                         <div class="card-body">
                             <div class='card-description'>
-                                <p class='model'>BMW M9<i class="fas fa-check"></i></p>
-                                <p>Cabrio</p>   
+                                <p class='model'>Volswagen Passat<i class="fas fa-check"></i></p>
+                                <p>Sedan</p>   
                             </div>
                             <div class="card-details d-flex">
                                 <div class='price'>
-                                    <i class="fas fa-dollar-sign"></i> 34,000
+                                    <i class="fas fa-dollar-sign"></i> 32,000
                                 </div>
                                 <div class='brand'>
-                                    <i class="fas fa-car"></i> BMW
+                                    <i class="fas fa-car"></i> Volswagen
                                 </div>
                                 <div class='fuel'>
-                                    <i class="fas fa-gas-pump"></i> Electric
-                                </div>
-                                <div class='heart'>
-                                    <i class="fas fa-heart"></i>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-12 col-md-6 col-lg-3">
-                    <div class="content-main-center-card">
-                        <img class='card-img-top' src="../assets/bmw-8-series-convertible-technical-data-sp-desktop-400x300.jpg"/>
-                        <div class="card-body">
-                            <div class='card-description'>
-                                <p class='model'>BMW M9<i class="fas fa-check"></i></p>
-                                <p>Cabrio</p>   
-                            </div>
-                            <div class="card-details d-flex">
-                                <div class='price'>
-                                    <i class="fas fa-dollar-sign"></i> 34,000
-                                </div>
-                                <div class='brand'>
-                                    <i class="fas fa-car"></i> BMW
-                                </div>
-                                <div class='fuel'>
-                                    <i class="fas fa-gas-pump"></i> Electric
+                                    <i class="fas fa-gas-pump"></i> Diesel
                                 </div>
                                 <div class='heart'>
                                     <i class="fas fa-heart"></i>
@@ -303,7 +303,7 @@ export default {
                 </div>
                 <div class="col-12 mt-2">
                     <div class="content-main text-center">
-                        <button type="button" class="buttons btn-dark">Show All Cars</button>
+                        <button type="button" class="buttons btn-dark">Show All Cars<i class="fas fa-arrow-right" ></i></button>
                     </div>
                 </div>
             </div>
@@ -482,7 +482,7 @@ export default {
 }
 
 .content-main{
-    border: 1px solid black;
+    
     .buttons{
         padding: 12px 25px;
         color: #fff;
@@ -490,6 +490,9 @@ export default {
         border: none;
         font-size: 12px;
         font-weight: bold;
+        i{
+            margin-left: 5px;
+        }
     }
 }
 
