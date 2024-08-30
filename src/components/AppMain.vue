@@ -240,7 +240,7 @@ export default {
 
 .jumbotron{
     padding:50px 0;
-    background-image: url('../assets/slider-autocar-6.jpg');
+    background-image: url('../assets/comment-bg-autocar.jpg');
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
