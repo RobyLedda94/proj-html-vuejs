@@ -177,17 +177,25 @@ export default {
 <style lang="scss" scoped>
 .content-main-top-li{
     padding: 25px 0;
-    .list-unstyled li{
-        font-size: 12px;
-        flex-basis: calc(100% / 8);
-        max-width: calc(100% / 8);
-        flex-grow: 1;
-        padding: 15px;
-        border: 1px solid black;
-        background-color: red;
-        text-align: center;
-        border-radius: 5px;
-        margin: 0 5px;
+    .list-unstyled{
+        display: flex;
+        flex-wrap: nowrap;
+        justify-content: space-between;
+        li {
+            font-size: 12px;
+            flex-basis: calc(100% / 8);
+            max-width: calc(100% / 8);
+            flex-grow: 0;
+            padding: 15px;
+            border: 1px solid black;
+            background-color: red;
+            text-align: center;
+            border-radius: 5px;
+            margin: 0 5px;
+            white-space: nowrap; 
+            overflow: hidden; 
+            text-overflow: ellipsis; 
+        }
     }
 }
 
@@ -260,6 +268,26 @@ export default {
     height: 300px;
     background-color: red;
     border: 1px solid black;
+}
+
+/*-------------------media-----------------*/
+
+@media (max-width: 768px) {
+    .content-main-top-li .list-unstyled {
+        flex-wrap: wrap; 
+    }
+    .content-main-top-li .list-unstyled li {
+        flex-basis: calc(50% - 10px);
+        max-width: calc(50% - 10px);
+        margin-bottom: 10px;
+    }
+}
+
+@media (max-width: 576px) {
+    .content-main-top-li .list-unstyled li {
+        flex-basis: calc(100% - 10px); 
+        max-width: calc(100% - 10px);
+    }
 }
 
 
