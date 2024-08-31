@@ -55,8 +55,8 @@ export default {
                     <div class="content-main-top-type">
                         <img class="img-fluid" src="../assets/coupe.jpg"/>
                         <div class="text-content">
-                            <p class="title mb-0">Cabrio</p>
-                            <p class="listings mb-2">3 Listings</p>
+                            <p class="title mb-0">Coupe</p>
+                            <p class="listings mb-2">0 Listings</p>
                         </div>
                     </div>
                 </div>
@@ -64,8 +64,8 @@ export default {
                     <div class="content-main-top-type">
                         <img class="img-fluid" src="../assets/hatchback.jpg"/>
                         <div class="text-content">
-                            <p class="title mb-0">Cabrio</p>
-                            <p class="listings mb-2">3 Listings</p>
+                            <p class="title mb-0">Hatchback</p>
+                            <p class="listings mb-2">2 Listings</p>
                         </div>
                     </div>
                 </div>
@@ -73,8 +73,8 @@ export default {
                     <div class="content-main-top-type">
                         <img class="img-fluid" src="../assets/pickup.jpg"/>
                         <div class="text-content">
-                            <p class="title mb-0">Cabrio</p>
-                            <p class="listings mb-2">3 Listings</p>
+                            <p class="title mb-0">Pick Up</p>
+                            <p class="listings mb-2">0 Listings</p>
                         </div>
                     </div>
                 </div>
@@ -82,7 +82,7 @@ export default {
                     <div class="content-main-top-type">
                         <img class="img-fluid" src="../assets/sedan.jpg"/>
                         <div class="text-content">
-                            <p class="title mb-0">Cabrio</p>
+                            <p class="title mb-0">Sedan</p>
                             <p class="listings mb-2">3 Listings</p>
                         </div>
                     </div>
@@ -91,8 +91,8 @@ export default {
                     <div class="content-main-top-type">
                         <img class="img-fluid" src="../assets/suv.jpg"/>
                         <div class="text-content">
-                            <p class="title mb-0">Cabrio</p>
-                            <p class="listings mb-2">3 Listings</p>
+                            <p class="title mb-0">Suv</p>
+                            <p class="listings mb-2">4 Listings</p>
                         </div>
                     </div>
                 </div>
@@ -359,28 +359,71 @@ export default {
             <div class="container">
                 <div class="row gy-3">
                     <div class="col-12">
-                        <div class="content-main-jumbo">
-    
+                        <div class="content-main-jumbo text-center">
+                            <div class="jumbo-icons">
+                                <div class="like">
+                                    <i class="fa-regular fa-thumbs-up"></i>
+                                </div>
+                                <div class="stars">
+                                    <i class="fa-regular fa-star"></i>
+                                    <i class="fa-regular fa-star"></i>
+                                    <i class="fa-regular fa-star"></i>
+                                </div>
+                            </div>
+                            <h3>What Are Our Custumers Sayng ?</h3>
+                            <p>Opinion from our happy costumers</p>
                         </div>
                     </div>
                     <div class="col-12 col-md-6 col-lg-3">
-                        <div class="content-main-jumbo-cards">
-    
+                        <div class="content-main-testimonial-card">
+                            <div class="testimonial-text">
+                                <p>We are a gallery vehicle dealer. Before we met this site, our sales werw sluggish.</p>
+                            </div>
+                            <div class="testimonial-img">
+                                <img src="../assets/man1.png"/>
+                            </div>
+                            <div class="testimonial-name">
+                                <p>Adam</p>
+                            </div>
                         </div>
                     </div>
                     <div class="col-12 col-md-6 col-lg-3">
-                        <div class="content-main-jumbo-cards">
-    
+                        <div class="content-main-testimonial-card">
+                            <div class="testimonial-text">
+                                <p>One of the quality websites I apply to rent a car.There are hundreds of different tools.</p>
+                            </div>
+                            <div class="testimonial-img">
+                                <img src="../assets/testimonial2-1.png"/>
+                            </div>
+                            <div class="testimonial-name">
+                                <p>Cristan</p>
+                            </div>
                         </div>
                     </div>
                     <div class="col-12 col-md-6 col-lg-3">
-                        <div class="content-main-jumbo-cards">
-    
+                        <div class="content-main-testimonial-card">
+                            <div class="testimonial-text">
+                                <p>I was trying to sell my car. And i put it here and sold it for more than it was worth.</p>
+                            </div>
+                            <div class="testimonial-img">
+                                <img src="../assets/man2.png"/>
+                            </div>
+                            <div class="testimonial-name">
+                                <p>Robert</p>
+                            </div>
                         </div>
                     </div>
                     <div class="col-12 col-md-6 col-lg-3">
-                        <div class="content-main-jumbo-cards">
-    
+                        <div class="content-main-testimonial-card">
+                            <div class="testimonial-text">
+                                <p>A fast and reliable vehicle selling site. Rare quality website with hundreds of model vehicles.</p>
+                            </div>
+                            <div class="testimonial-img">
+                                <img src="../assets/testimonial4-1.png"/>
+                            </div>
+                            <div class="testimonial-name">
+                                <p>Elizabeth</p>
+                            </div>
                         </div>
                     </div>
                     <div class="col-12">
@@ -613,15 +656,42 @@ export default {
     background-position: center;
     background-repeat: no-repeat;
     .content-main-jumbo{
-        background-color: red;
-        height: 80px;
-        border: 1px solid black;
-    
+        color: #fff;
     }
-    .content-main-jumbo-cards{
-        background-color: red;
-        height: 300px;
-        border: 1px solid black;
+    .jumbo-icons{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        .like{
+            i{
+                font-size: 35px;
+            }
+        }
+        .stars{
+            i{
+                font-size: 15px;
+            }
+        }
+    }
+    .content-main-testimonial-card{
+        background-color: #fff;
+        border-radius: 10px;
+        text-align: center;
+        padding: 40px 30px;
+        min-height: 405px;
+        .testimonial-text{
+            font-size: 14px;
+            color: #777777;
+            margin-bottom: 35px;
+        }
+        .testimonial-img img{
+            width: 90px;
+            margin-bottom: 50px;
+        }
+        .testimonial-name{
+            font-size: 15px;
+            color: #777777;
+        }
     }
 
 }
