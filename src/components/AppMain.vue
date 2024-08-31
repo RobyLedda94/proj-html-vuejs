@@ -308,11 +308,23 @@ export default {
                 </div>
             </div>
         </div>
+        <!-- sezione about -->
         <div class="container-sm">
             <div class="row">
                 <div class="col-12 col-lg-8">
                     <div class="content-main-sm">
-
+                        <div class="image-container">
+                            <img class="img-fluid img-0" src="../assets/circle-auto-car-1.png" alt="immagine 0"/>
+                            <img class="img-fluid img-1" src="../assets/aoutcar-about-1.png" alt="immagine 0"/>
+                            <div class="circle circle-top">
+                                <p class="mb-0 fs-4">24</p>
+                                <p>Years of <br> Experience</p>
+                            </div>
+                            <div class="circle circle-bottom">
+                                <p class="mb-0 fs-4">240</p>
+                                <p>Special Expert<br>Team</p>
+                            </div>
+                        </div>
                     </div>
                 </div>
                 <div class="col-12 col-lg-4">
@@ -499,9 +511,42 @@ export default {
 .container-sm{
     padding: 0 70px;
     margin-bottom: 70px;
-    .content-main-sm{
-        height: 450px;
-        border: 1px solid black;
+    .content-main-sm{ 
+        .image-container{
+            position: relative;
+            .img-1{
+                position: absolute;
+                top: 0;
+                left: 0;
+            }
+            .circle{
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                justify-content: center;
+                text-align: center;
+                color: #fff;
+                background: black;
+                border-radius: 50%;
+                font-weight: bold;
+                max-width: 10%; 
+                max-height: 10%;
+                padding: 60px; 
+            }
+            .circle-top{
+                position: absolute;
+                top: 25%;
+                left: 25%;
+                
+                transform: translate(-50%, -50%);
+            }
+            .circle-bottom{
+                position: absolute;
+                bottom: 25%;
+                right: 25%;
+                transform: translate(50%, 50%);
+            }
+        }
     }
 
 }
@@ -513,11 +558,13 @@ export default {
     background-position: center;
     background-repeat: no-repeat;
     .content-main-jumbo{
+        background-color: red;
         height: 80px;
         border: 1px solid black;
     
     }
     .content-main-jumbo-cards{
+        background-color: red;
         height: 300px;
         border: 1px solid black;
     }
