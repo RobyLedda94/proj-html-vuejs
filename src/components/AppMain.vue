@@ -328,8 +328,22 @@ export default {
                     </div>
                 </div>
                 <div class="col-12 col-lg-4">
-                    <div class="content-main-sm">
-
+                    <div class="content-main-sm py-5">
+                        <div class="top-right">
+                            <h4>Want to buy or sell a vehicle?</h4>
+                            <p class="text">You can put your vehicles for sale by by registering on out website. Whether you are a dealer or sell personally. Sell your vehicle in the most portable way. With this system, which has millions of members, you vill be able to buy and sell vehicles quikly.</p>
+                        </div>
+                        <div class="bottom-right">
+                            <div class="models">
+                                <h5>Model Vehicles</h5>
+                                <p class="text">We are sure that you will find vehicles of suitable models on our website</p>
+                            </div>
+                            <div class="models">
+                                <h5>Model Vehicles</h5>
+                                <p class="text">We are sure that you will find vehicles of suitable models on our website</p>
+                            </div>
+                            <button type="button" class="buttons btn-dark">Get to know us<i class="fas fa-arrow-right" ></i></button>
+                        </div>
                     </div>
                 </div>
             </div>
@@ -511,7 +525,19 @@ export default {
 .container-sm{
     padding: 0 70px;
     margin-bottom: 70px;
-    .content-main-sm{ 
+    
+    .content-main-sm{
+        .buttons{
+            padding: 12px 25px;
+            color: #fff;
+            background-color: black;
+            border: none;
+            font-size: 12px;
+            font-weight: bold;
+            i{
+                margin-left: 5px;
+            }
+        }
         .image-container{
             position: relative;
             .img-1{
@@ -546,6 +572,10 @@ export default {
                 right: 25%;
                 transform: translate(50%, 50%);
             }
+        }
+        .text{
+            color: #777777;
+            font-size: 12px;
         }
     }
 
