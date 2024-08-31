@@ -333,14 +333,20 @@ export default {
                             <h4>Want to buy or sell a vehicle?</h4>
                             <p class="text">You can put your vehicles for sale by by registering on out website. Whether you are a dealer or sell personally. Sell your vehicle in the most portable way. With this system, which has millions of members, you vill be able to buy and sell vehicles quikly.</p>
                         </div>
-                        <div class="bottom-right">
+                        <div class="bottom-right mt-5">
                             <div class="models">
-                                <h5>Model Vehicles</h5>
-                                <p class="text">We are sure that you will find vehicles of suitable models on our website</p>
+                                <i class="fa-solid fa-car"></i>
+                                <div class="text-box">
+                                    <h6>Model Vehicles</h6>
+                                    <p class="text">We are sure that you will find vehicles of suitable models on our website</p>
+                                </div>
                             </div>
                             <div class="models">
-                                <h5>Model Vehicles</h5>
-                                <p class="text">We are sure that you will find vehicles of suitable models on our website</p>
+                                <i class="fa-solid fa-car-burst"></i>
+                                <div class="text-box">
+                                    <h6>2nd Hand Vehicles</h6>
+                                    <p class="text">We are sure that you will find vehicles of suitable models on our website</p>
+                                </div>
                             </div>
                             <button type="button" class="buttons btn-dark">Get to know us<i class="fas fa-arrow-right" ></i></button>
                         </div>
@@ -348,6 +354,7 @@ export default {
                 </div>
             </div>
         </div>
+        <!-- sezione testimonials -->
         <div class="jumbotron mb-5">
             <div class="container">
                 <div class="row gy-3">
@@ -527,6 +534,10 @@ export default {
     margin-bottom: 70px;
     
     .content-main-sm{
+        .text{
+            color: #777777;
+            font-size: 14px;
+        }
         .buttons{
             padding: 12px 25px;
             color: #fff;
@@ -573,10 +584,24 @@ export default {
                 transform: translate(50%, 50%);
             }
         }
-        .text{
-            color: #777777;
-            font-size: 12px;
+        .models{
+            display: flex;
+            align-items: center;
+            gap: 10px;
+            i{
+                font-size: 30px;
+                color: #414141;
+
+            }
+            .text-box{
+                .text{
+                    color: #777777;
+                    font-size: 12px;
+                }
+            }
+    
         }
+
     }
 
 }
