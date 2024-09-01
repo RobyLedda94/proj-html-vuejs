@@ -434,7 +434,7 @@ export default {
                 </div>
             </div>
         </div>
-        <div class="container mb-5">
+        <div class="container mb-5 py-5">
             <div class="row gy-2">
                 <div class="col-12">
                     <div class="content-main-bottom py-2">
@@ -749,6 +749,7 @@ export default {
 }
 
 .content-main-bottom-cards{
+    min-height: 385px;
     text-align: center;
     padding: 15px;
     border-radius: 8px;
