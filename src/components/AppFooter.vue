@@ -4,9 +4,11 @@ export default {
     props: {
         footerLists: {
             type: Array,
+        },
+        formInput: {
+            type: Object,
         }
-    }
-    
+    },
 }
 </script>
 
@@ -45,9 +47,9 @@ export default {
                     <div class="content-footer mx-3">
                         <h4>Join Our Newsletter</h4>
                         <p>Subscribe to be informed about our services and products.</p>
-                        <div class="form">
-                            <input type="text" placeholder="Your Email Address"/>
-                            <button>Subscribe<i class="fas fa-arrow-right mx-2" ></i></button>
+                        <div class="form" v-for="(field, index) in formInput.fields" :key="index">
+                            <input :type="field.type" :placeholder="field.placeholder"/>
+                            <button>{{formInput.button.text}}<i class="fas fa-arrow-right mx-2" ></i></button>
                         </div>
                     </div>
                 </div>

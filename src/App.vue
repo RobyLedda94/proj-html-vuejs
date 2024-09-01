@@ -34,7 +34,14 @@ export default {
           title: 'Quick Links',
           items: ['Home', 'About Us', 'Blog', 'Contacts', 'Refind & Returns']
         }
-      ]
+      ],
+      // campo input e bottone
+      formInput: {
+        fields: [
+          {type: 'text', placeholder: 'Your Email Address'}
+        ],
+        button: {text: 'Subscribe'}
+      } 
     };
   }
 }
@@ -51,7 +58,7 @@ export default {
   
 
     <!-- ciclo la componenete -->
-    <AppFooter :footerLists="footerLists"/>
+    <AppFooter :footerLists="footerLists" :formInput="formInput"/>
   
   
 </template>
