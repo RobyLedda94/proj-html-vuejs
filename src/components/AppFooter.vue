@@ -11,7 +11,7 @@ export default {
             <div class="row gy-3">
                 <div class="col-12 col-md-6 col-lg-2">
                     <div class="content-footer">
-                        <div class="footer-logo">
+                        <div class="footer-logo mb-4">
                             <img class="img-fluid" src="../assets/logo-footer-autocar11.png"/>
                         </div>
                         <div class="footer-icons">
@@ -36,14 +36,12 @@ export default {
                     </div>
                 </div>
                 <div class="col-12 col-md-6">
-                    <div class="content-footer">
+                    <div class="content-footer mx-3">
                         <h4>Join Our Newsletter</h4>
                         <p>Subscribe to be informed about our services and products.</p>
                         <div class="form">
                             <input type="text" placeholder="Your Email Address"/>
-                            <div>
-                                <button>Subscribe</button>
-                            </div>
+                            <button>Subscribe<i class="fas fa-arrow-right mx-2" ></i></button>
                         </div>
                     </div>
                 </div>
@@ -61,7 +59,7 @@ export default {
                 </div>
                 <div class="col-12 col-md-6 col-lg-2">
                     <div class="content-footer">
-                        <h4>My Account</h4>
+                        <h4>Quick Links</h4>
                         <ul class="list-unstyled footer-list">
                             <li class="footer-list-item"><i class="fas fa-minus"></i>Home</li>
                             <li class="footer-list-item"><i class="fas fa-minus"></i>About Us</li>
@@ -87,12 +85,67 @@ footer{
     background-color: black;
     .container{
         .content-footer{
-            border: 1px solid white;
             color: white;
+            font-size: 13px;
+            .footer-icons{
+                margin-bottom: 25px;
+                .icon{
+                    display: flex;
+                    align-items: center;
+                    margin-bottom: 15px;
+                    i{
+                        margin-right: 10px;
+                        font-size: 20px;
+                    }
+                }
+            }
+            .social{
+                display: flex;
+                justify-content: center;
+                gap: 30px;
+                font-size: 20px;
+                
+            }
+            h4{
+                margin: 20px 0;
+                font-weight: bold;
+                
+            }
+            p{
+                font-size: 12px;
+            }
+            .form{
+                display: flex;
+                flex-direction: column;
+                align-items: start;
+                justify-content: center;
+                width: 100%;
+                input{
+                    width: 50%;
+                    padding: 10px;
+                    margin-bottom: 3px;
+                }
+                button{
+                    width: 50%;
+                    padding: 10px;
+                    border: none;
+                    cursor: pointer;
+                    color:#777777;
+                }
+            }
+            .footer-list{
+                .footer-list-item{
+                    margin-bottom: 15px;
+                    font-size: 12px;
+                    i{
+                        margin-right: 10px;
+                        font-size: 15px;
+                    }
+                }
+            }
         }
         .content-footer-bottom{
             height: 100px;
-            border: 1px solid white;
             p{
                 color: white;
                 font-size: 14px;
