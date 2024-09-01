@@ -1,5 +1,11 @@
 <script>
 export default {
+    // definisco la props
+    props: {
+        footerLists: {
+            type: Array,
+        }
+    }
     
 }
 </script>
@@ -45,27 +51,12 @@ export default {
                         </div>
                     </div>
                 </div>
-                <div class="col-12 col-md-6 col-lg-2">
+                <!-- ciclo la colonna -->
+                <div v-for="(list, index) in footerLists" :key="index" class="col-12 col-md-6 col-lg-2">
                     <div class="content-footer">
-                        <h4>My Account</h4>
+                        <h4>{{ list.title }}</h4>
                         <ul class="list-unstyled footer-list">
-                            <li class="footer-list-item"><i class="fas fa-minus"></i>My Account</li>
-                            <li class="footer-list-item"><i class="fas fa-minus"></i>Checkout</li>
-                            <li class="footer-list-item"><i class="fas fa-minus"></i>Cart</li>
-                            <li class="footer-list-item"><i class="fas fa-minus"></i>Packages</li>
-                            <li class="footer-list-item"><i class="fas fa-minus"></i>Add Car</li>   
-                        </ul>
-                    </div>
-                </div>
-                <div class="col-12 col-md-6 col-lg-2">
-                    <div class="content-footer">
-                        <h4>Quick Links</h4>
-                        <ul class="list-unstyled footer-list">
-                            <li class="footer-list-item"><i class="fas fa-minus"></i>Home</li>
-                            <li class="footer-list-item"><i class="fas fa-minus"></i>About Us</li>
-                            <li class="footer-list-item"><i class="fas fa-minus"></i>Blog</li>
-                            <li class="footer-list-item"><i class="fas fa-minus"></i>Contact</li>
-                            <li class="footer-list-item"><i class="fas fa-minus"></i>Refind &amp; Returns</li>   
+                            <li v-for="(item, i) in list.items" :key="i" class="footer-list-item"><i class="fas fa-minus"></i>{{ item }}</li>  
                         </ul>
                     </div>
                 </div>
@@ -140,6 +131,7 @@ footer{
                     i{
                         margin-right: 10px;
                         font-size: 15px;
+                        font-weight: bold;
                     }
                 }
             }

@@ -24,6 +24,17 @@ export default {
         { text: 'Blog', href: '#'},
         { text: 'Contact', href: '#'},
       ],
+      // footer lists
+      footerLists : [
+        {
+          title: 'My Account',
+          items: ['My Account', 'Checkout', 'Cart', 'Packages', 'Add Car']
+        },
+        {
+          title: 'Quick Links',
+          items: ['Home', 'About Us', 'Blog', 'Contacts', 'Refind & Returns']
+        }
+      ]
     };
   }
 }
@@ -39,8 +50,8 @@ export default {
     <AppMain />
   
 
- 
-    <AppFooter />
+    <!-- ciclo la componenete -->
+    <AppFooter :footerLists="footerLists"/>
   
   
 </template>
