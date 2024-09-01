@@ -362,7 +362,7 @@ export default {
                         <div class="content-main-jumbo text-center">
                             <div class="jumbo-icons">
                                 <div class="like">
-                                    <i class="fa-regular fa-thumbs-up"></i>
+                                    <i class="fa-regular fa-thumbs-up fa-3x"></i>
                                 </div>
                                 <div class="stars">
                                     <i class="fa-regular fa-star"></i>
@@ -437,28 +437,58 @@ export default {
         <div class="container mb-5">
             <div class="row gy-2">
                 <div class="col-12">
-                    <div class="content-main-bottom">
-
+                    <div class="content-main-bottom py-2">
+                        <div class="circle">
+                            <i class="fa-regular fa-thumbs-up fa-3x"></i>
+                        </div>
+                        <div class="text text-center">
+                            <h4>Resent Articles</h4>
+                            <p>Useful information about car.</p>
+                        </div>
                     </div>
                 </div>
                 <div class="col-12 col-md-6 col-lg-3">
                     <div class="content-main-bottom-cards">
-                        
+                        <img class="img-fluid" src="../assets/news-autocar-1-300x180.jpg"/>
+                        <div class="card-body">
+                            <p>06.07.2022 - Auro Car</p>
+                            <h5 class="card-title">Why is BMW loved?</h5>
+                            <p class="card-text">BMWs have a different line with their designs and almost [...]</p>
+                            <button class="buttons btn-dark">More</button>
+                        </div>
                     </div>
                 </div>
                 <div class="col-12 col-md-6 col-lg-3">
                     <div class="content-main-bottom-cards">
-                        
+                        <img class="img-fluid" src="../assets/news-autocar-2-300x180.jpg"/>
+                        <div class="card-body">
+                            <p>06.07.2022 - Auro Car</p>
+                            <h5 class="card-title">How solid is Audi?</h5>
+                            <p class="card-text">According to Euro NCAP data with different test organizations, there [...]</p>
+                            <button class="buttons btn-dark">More</button>
+                        </div>
                     </div>
                 </div>
                 <div class="col-12 col-md-6 col-lg-3">
                     <div class="content-main-bottom-cards">
-                        
+                        <img class="img-fluid" src="../assets/news-autocar-6-300x180.jpg"/>
+                        <div class="card-body">
+                            <p>06.07.2022 - Auro Car</p>
+                            <h5 class="card-title">What brand is Skoda?</h5>
+                            <p class="card-text">Skoda is one of the leading automotive manufactures on the [...]</p>
+                            <button class="buttons btn-dark">More</button>
+                        </div>
                     </div>
                 </div>
                 <div class="col-12 col-md-6 col-lg-3">
                     <div class="content-main-bottom-cards">
-                        
+                        <img class="img-fluid" src="../assets/news-autocar-5-300x180.jpg"/>
+                        <div class="card-body">
+                            <p>06.07.2022 - Auro Car</p>
+                            <h5 class="card-title">Is the Auris diesel?</h5>
+                            <p class="card-text">You will have a quieter vehicle that burns less than [...]</p>
+                            <button class="buttons btn-dark">More</button>
+                        </div>
                     </div>
                 </div>
             </div>
@@ -662,11 +692,6 @@ export default {
         display: flex;
         flex-direction: column;
         align-items: center;
-        .like{
-            i{
-                font-size: 35px;
-            }
-        }
         .stars{
             i{
                 font-size: 15px;
@@ -697,14 +722,55 @@ export default {
 }
 
 .content-main-bottom{
-    height: 150px;
-    border: 1px solid black;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    .circle{
+        display: flex;
+        background-color: black;
+        padding: 10px;
+        border-radius: 50%;
+        margin-bottom: 5px;
+        i{
+            color: #fff;
+        }
+    }
+    .text{
+        h4{
+            font-size: 24px;
+            font-weight: bold;
+        }
+        p{
+            font-size: 12px;
+            color: #777777;
+        }
+    }
 }
 
 .content-main-bottom-cards{
-    height: 300px;
-    border: 1px solid black;
+    text-align: center;
+    padding: 15px;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    .card-title{
+        font-weight: bold;
+        margin-bottom: 20px;
+    }
+    .card-text {
+        font-size: 13px;
+        color: #777777;
+    }
+    .buttons{
+        padding: 12px 25px;
+        color: #fff;
+        background-color: black;
+        border: none;
+        font-size: 12px;
+        font-weight: bold;
+    }
 }
+
 
 /*-------------------media-----------------*/
 
