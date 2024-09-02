@@ -14,7 +14,7 @@ export default {
   },
   data () {
     return {
-      // array per le voci della lista appheader
+      // parte header
       menuItems: [
         { text: 'Home', href: '#'},
         { text: 'About Us', href: '#'},
@@ -56,7 +56,30 @@ export default {
       { model: 'Volswagen Passat', type: 'Sedan', image: '/img/vw-3.jpg', price: '32,000', brand: 'Volswagen', fuel: 'Diesel' }
       ],
 
-      // footer lists
+      testimonials: [
+        {
+          text: 'We are a gallery vehicle dealer. Before we met this site, our sales were sluggish.',
+          image: '/img/man1.png',
+          name: 'Adam'
+        },
+        {
+          text: 'One of the quality websites I apply to rent a car. There are hundreds of different tools.',
+          image: '/img/testimonial2-1.png',
+          name: 'Cristan'
+        },
+        {
+          text: 'I was trying to sell my car. And I put it here and sold it for more than it was worth.',
+          image: '/img/man2.png',
+          name: 'Robert'
+        },
+        {
+          text: 'A fast and reliable vehicle selling site. Rare quality website with hundreds of model vehicles.',
+          image: '/img/testimonial4-1.png',
+          name: 'Elizabeth'
+        }
+      ],
+
+      // parte footer
       footerLists : [
         {
           title: 'My Account',
@@ -86,7 +109,7 @@ export default {
   
 
   
-    <AppMain :filters="filters" :vehicles="vehicles" :cards="cards"/>
+    <AppMain :filters="filters" :vehicles="vehicles" :cards="cards" :testimonials="testimonials"/>
   
 
     

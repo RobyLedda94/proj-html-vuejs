@@ -11,6 +11,9 @@ export default {
         },
         cards: {
             type: Array,
+        },
+        testimonials: {
+            type: Array,
         }
     }
 }
@@ -43,7 +46,7 @@ export default {
                 </div>
             </div>
             <!-- parte main center carte auto -->
-            <div class="row g-0 mb-3">
+            <div class="row g-0 mb-5">
                 <div class="col-12 col-md-6 col-lg-3" v-for="card in cards" :key="card">
                     <div class="content-main-center-card">
                         <img class='card-img-top' :src="card.image"/>
@@ -69,183 +72,6 @@ export default {
                         </div>
                     </div>
                 </div>
-                <!-- <div class="col-12 col-md-6 col-lg-3">
-                    <div class="content-main-center-card">
-                        <img class='card-img-top' src="../assets/bmw88-400x300.jpg"/>
-                        <div class="card-body">
-                            <div class='card-description'>
-                                <p class='model'>BMW M8<i class="fas fa-check"></i></p>
-                                <p>Cabrio</p>   
-                            </div>
-                            <div class="card-details d-flex">
-                                <div class='price'>
-                                    <i class="fas fa-dollar-sign"></i> 34,000
-                                </div>
-                                <div class='brand'>
-                                    <i class="fas fa-car"></i> BMW
-                                </div>
-                                <div class='fuel'>
-                                    <i class="fas fa-gas-pump"></i> Diesel
-                                </div>
-                                <div class='heart'>
-                                    <i class="fas fa-heart"></i>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-12 col-md-6 col-lg-3">
-                    <div class="content-main-center-card">
-                        <img class='card-img-top' src="../assets/bmw442-400x300.jpg"/>
-                        <div class="card-body">
-                            <div class='card-description'>
-                                <p class='model'>BMW M4<i class="fas fa-check"></i></p>
-                                <p>Cabrio</p>   
-                            </div>
-                            <div class="card-details d-flex">
-                                <div class='price'>
-                                    <i class="fas fa-dollar-sign"></i> 34,000
-                                </div>
-                                <div class='brand'>
-                                    <i class="fas fa-car"></i> BMW
-                                </div>
-                                <div class='fuel'>
-                                    <i class="fas fa-gas-pump"></i> Gasoline
-                                </div>
-                                <div class='heart'>
-                                    <i class="fas fa-heart"></i>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-12 col-md-6 col-lg-3">
-                    <div class="content-main-center-card">
-                        <img class='card-img-top' src="../assets/yeni-ibiza-2-400x300.jpg"/>
-                        <div class="card-body">
-                            <div class='card-description'>
-                                <p class='model'>Seat Ibiza<i class="fas fa-check"></i></p>
-                                <p>Hatchback</p>   
-                            </div>
-                            <div class="card-details d-flex">
-                                <div class='price'>
-                                    <i class="fas fa-dollar-sign"></i> 27,000
-                                </div>
-                                <div class='brand'>
-                                    <i class="fas fa-car"></i> Seat
-                                </div>
-                                <div class='fuel'>
-                                    <i class="fas fa-gas-pump"></i> Electric
-                                </div>
-                                <div class='heart'>
-                                    <i class="fas fa-heart"></i>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div class="row g-0 mb-5">
-                <div class="col-12 col-md-6 col-lg-3">
-                    <div class="content-main-center-card">
-                        <img class='card-img-top' src="../assets/makyajli-2022-seat-arona-1-400x300.jpg"/>
-                        <div class="card-body">
-                            <div class='card-description'>
-                                <p class='model'>Seat Arona<i class="fas fa-check"></i></p>
-                                <p>SUV</p>   
-                            </div>
-                            <div class="card-details d-flex">
-                                <div class='price'>
-                                    <i class="fas fa-dollar-sign"></i> 68,000
-                                </div>
-                                <div class='brand'>
-                                    <i class="fas fa-car"></i> Seat
-                                </div>
-                                <div class='fuel'>
-                                    <i class="fas fa-gas-pump"></i> Gasoline
-                                </div>
-                                <div class='heart'>
-                                    <i class="fas fa-heart"></i>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-12 col-md-6 col-lg-3">
-                    <div class="content-main-center-card">
-                        <img class='card-img-top' src="../assets/vw-taigo3832-400x300.jpg"/>
-                        <div class="card-body">
-                            <div class='card-description'>
-                                <p class='model'>Volseagen Taigo<i class="fas fa-check"></i></p>
-                                <p>SUV</p>   
-                            </div>
-                            <div class="card-details d-flex">
-                                <div class='price'>
-                                    <i class="fas fa-dollar-sign"></i> 52,000
-                                </div>
-                                <div class='brand'>
-                                    <i class="fas fa-car"></i> Volseagen
-                                </div>
-                                <div class='fuel'>
-                                    <i class="fas fa-gas-pump"></i> Electric
-                                </div>
-                                <div class='heart'>
-                                    <i class="fas fa-heart"></i>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-12 col-md-6 col-lg-3">
-                    <div class="content-main-center-card">
-                        <img class='card-img-top' src="../assets/2019-vw-t-cross-400x300.jpg"/>
-                        <div class="card-body">
-                            <div class='card-description'>
-                                <p class='model'>Volswagen T-Cross<i class="fas fa-check"></i></p>
-                                <p>SUV</p>   
-                            </div>
-                            <div class="card-details d-flex">
-                                <div class='price'>
-                                    <i class="fas fa-dollar-sign"></i> 47,000
-                                </div>
-                                <div class='brand'>
-                                    <i class="fas fa-car"></i> Volswagen
-                                </div>
-                                <div class='fuel'>
-                                    <i class="fas fa-gas-pump"></i> Diesel
-                                </div>
-                                <div class='heart'>
-                                    <i class="fas fa-heart"></i>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-12 col-md-6 col-lg-3">
-                    <div class="content-main-center-card">
-                        <img class='card-img-top' src="../assets/volkswagen-passat-1280x720-1-400x300.jpg"/>
-                        <div class="card-body">
-                            <div class='card-description'>
-                                <p class='model'>Volswagen Passat<i class="fas fa-check"></i></p>
-                                <p>Sedan</p>   
-                            </div>
-                            <div class="card-details d-flex">
-                                <div class='price'>
-                                    <i class="fas fa-dollar-sign"></i> 32,000
-                                </div>
-                                <div class='brand'>
-                                    <i class="fas fa-car"></i> Volswagen
-                                </div>
-                                <div class='fuel'>
-                                    <i class="fas fa-gas-pump"></i> Diesel
-                                </div>
-                                <div class='heart'>
-                                    <i class="fas fa-heart"></i>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div> -->
                 <div class="col-12 mt-2">
                     <div class="content-main text-center">
                         <button type="button" class="buttons btn-dark">Show All Cars<i class="fas fa-arrow-right" ></i></button>
@@ -301,7 +127,7 @@ export default {
         </div>
         <!-- sezione testimonials -->
         <div class="jumbotron mb-5">
-            <div class="container">
+            <div class="container my-3">
                 <div class="row gy-3">
                     <div class="col-12">
                         <div class="content-main-jumbo text-center">
@@ -319,55 +145,16 @@ export default {
                             <p>Opinion from our happy costumers</p>
                         </div>
                     </div>
-                    <div class="col-12 col-md-6 col-lg-3">
+                    <div class="col-12 col-md-6 col-lg-3" v-for="testimonial in testimonials" :key="testimonial">
                         <div class="content-main-testimonial-card">
                             <div class="testimonial-text">
-                                <p>We are a gallery vehicle dealer. Before we met this site, our sales werw sluggish.</p>
+                                <p>{{testimonial.text}}</p>
                             </div>
                             <div class="testimonial-img">
-                                <img src="../assets/man1.png"/>
+                                <img :src="testimonial.image"/>
                             </div>
                             <div class="testimonial-name">
-                                <p>Adam</p>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-12 col-md-6 col-lg-3">
-                        <div class="content-main-testimonial-card">
-                            <div class="testimonial-text">
-                                <p>One of the quality websites I apply to rent a car.There are hundreds of different tools.</p>
-                            </div>
-                            <div class="testimonial-img">
-                                <img src="../assets/testimonial2-1.png"/>
-                            </div>
-                            <div class="testimonial-name">
-                                <p>Cristan</p>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-12 col-md-6 col-lg-3">
-                        <div class="content-main-testimonial-card">
-                            <div class="testimonial-text">
-                                <p>I was trying to sell my car. And i put it here and sold it for more than it was worth.</p>
-                            </div>
-                            <div class="testimonial-img">
-                                <img src="../assets/man2.png"/>
-                            </div>
-                            <div class="testimonial-name">
-                                <p>Robert</p>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-12 col-md-6 col-lg-3">
-                        <div class="content-main-testimonial-card">
-                            <div class="testimonial-text">
-                                <p>A fast and reliable vehicle selling site. Rare quality website with hundreds of model vehicles.</p>
-                            </div>
-                            <div class="testimonial-img">
-                                <img src="../assets/testimonial4-1.png"/>
-                            </div>
-                            <div class="testimonial-name">
-                                <p>Elizabeth</p>
+                                <p>{{testimonial.name}}</p>
                             </div>
                         </div>
                     </div>
@@ -526,6 +313,9 @@ export default {
             position: absolute;
             right: 0;
             color: #aaa;
+        }
+        .heart:hover{
+            color: red;
         }
     }
 
