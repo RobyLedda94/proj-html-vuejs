@@ -75,7 +75,7 @@ export default {
                         </div>
                     </div>
                 </div>
-                <div class="col-12 mt-2">
+                <div class="col-12 mt-3">
                     <div class="content-main text-center">
                         <button type="button" class="buttons btn-dark">Show All Cars<i class="fas fa-arrow-right" ></i></button>
                     </div>
@@ -247,6 +247,10 @@ export default {
     background-color: #fff;
     border: 1px solid #eee;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.2s;
+    &:hover{
+        transform: scale(1.05)
+    }
     .listings{
         font-size: 12px;
     }
@@ -259,6 +263,11 @@ export default {
     background-color: #fff;
     padding: 10px;
     position: relative;
+    transition: transform 0.3s, box-shadow 0.3s;
+    &:hover {
+        transform: scale(1.05);
+        z-index: 1;
+    }
     .card-body{
         font-size: 13px;
         .card-description{
