@@ -310,6 +310,9 @@ export default {
         border: none;
         font-size: 12px;
         font-weight: bold;
+        &:hover {
+            transform: scale(1.02);
+        }
         i{
             margin-left: 5px;
         }
@@ -332,6 +335,9 @@ export default {
             border: none;
             font-size: 12px;
             font-weight: bold;
+            &:hover {
+                transform: scale(1.02);
+            }
             i{
                 margin-left: 5px;
             }
@@ -418,6 +424,10 @@ export default {
         text-align: center;
         padding: 40px 30px;
         min-height: 405px;
+        transition: transform 0.1s;
+        &:hover{
+            transform: scale(1.05)
+        }
         .testimonial-text{
             font-size: 14px;
             color: #777777;
@@ -483,6 +493,9 @@ export default {
         border: none;
         font-size: 12px;
         font-weight: bold;
+        &:hover {
+            transform: scale(1.02);
+        }
     }
 }
 
