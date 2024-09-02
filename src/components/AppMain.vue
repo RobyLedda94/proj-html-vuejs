@@ -14,7 +14,10 @@ export default {
         },
         testimonials: {
             type: Array,
-        }
+        },
+        carsBottom: {
+            type: Array,
+        },
     }
 }
 </script>
@@ -179,46 +182,13 @@ export default {
                         </div>
                     </div>
                 </div>
-                <div class="col-12 col-md-6 col-lg-3">
+                <div class="col-12 col-md-6 col-lg-3" v-for="car in carsBottom" :key="car">
                     <div class="content-main-bottom-cards">
-                        <img class="img-fluid" src="../assets/news-autocar-1-300x180.jpg"/>
+                        <img class="img-fluid" :src="car.image"/>
                         <div class="card-body">
-                            <p>06.07.2022 - Auro Car</p>
-                            <h5 class="card-title">Why is BMW loved?</h5>
-                            <p class="card-text">BMWs have a different line with their designs and almost [...]</p>
-                            <button class="buttons btn-dark">More</button>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-12 col-md-6 col-lg-3">
-                    <div class="content-main-bottom-cards">
-                        <img class="img-fluid" src="../assets/news-autocar-2-300x180.jpg"/>
-                        <div class="card-body">
-                            <p>06.07.2022 - Auro Car</p>
-                            <h5 class="card-title">How solid is Audi?</h5>
-                            <p class="card-text">According to Euro NCAP data with different test organizations, there [...]</p>
-                            <button class="buttons btn-dark">More</button>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-12 col-md-6 col-lg-3">
-                    <div class="content-main-bottom-cards">
-                        <img class="img-fluid" src="../assets/news-autocar-6-300x180.jpg"/>
-                        <div class="card-body">
-                            <p>06.07.2022 - Auro Car</p>
-                            <h5 class="card-title">What brand is Skoda?</h5>
-                            <p class="card-text">Skoda is one of the leading automotive manufactures on the [...]</p>
-                            <button class="buttons btn-dark">More</button>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-12 col-md-6 col-lg-3">
-                    <div class="content-main-bottom-cards">
-                        <img class="img-fluid" src="../assets/news-autocar-5-300x180.jpg"/>
-                        <div class="card-body">
-                            <p>06.07.2022 - Auro Car</p>
-                            <h5 class="card-title">Is the Auris diesel?</h5>
-                            <p class="card-text">You will have a quieter vehicle that burns less than [...]</p>
+                            <p>{{ car.date}} </p>
+                            <h5 class="card-title">{{car.title}}</h5>
+                            <p class="card-text">{{car.text}}</p>
                             <button class="buttons btn-dark">More</button>
                         </div>
                     </div>

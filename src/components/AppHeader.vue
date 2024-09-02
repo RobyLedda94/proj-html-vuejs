@@ -69,6 +69,11 @@ export default {
 
 header {
     background-color: #fff;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 1;
 }
 
 .container {
@@ -135,6 +140,7 @@ header {
 .jumbotron{
     background-color: #000;
     padding: 10px 0;
+    margin-top: 75px;
     .sfondo{
         background-image: url('../assets/slider-autocar-5.jpg');
         background-size: cover;
