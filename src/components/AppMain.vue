@@ -2,7 +2,11 @@
 
 <script>
 export default {
-    
+    props : {
+        filters: {
+            type: Array,
+        },
+    }
 }
 </script>
 
@@ -14,29 +18,9 @@ export default {
                 <div class="col-12">
                     <div class="content-main-top-li px-3">
                         <ul class="list-unstyled d-flex justify-content-between align-items-center mb-0">
-                            <li>Keywords</li>
-                            <li>Location</li>
-                            <li>
-                                All Categories
-                                <i class="fas fa-sort-down"></i>
+                            <li v-for="filter in filters" :key="filter">{{ filter.text}}
+                                <i :class="filter.icon"></i>
                             </li>
-                            <li>
-                                Brand
-                                <i class="fas fa-sort-down"></i>
-                            </li>
-                            <li>
-                                Fuel Type
-                                <i class="fas fa-sort-down"></i>
-                            </li>
-                            <li>
-                                Trasmission
-                                <i class="fas fa-sort-down"></i>
-                            </li>
-                            <li>
-                                Status
-                                <i class="fas fa-sort-down"></i>
-                            </li>
-                            <li>Search</li>
                           </ul>
                     </div>
                 </div>

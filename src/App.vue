@@ -24,6 +24,18 @@ export default {
         { text: 'Blog', href: '#'},
         { text: 'Contact', href: '#'},
       ],
+      // parte main
+      filters : [
+        { text: 'Keywords'},
+        { text: 'Location'},
+        { text: 'All Categories', icon: 'fas fa-sort-down' },
+        { text: 'Brand', icon: 'fas fa-sort-down' },
+        { text: 'Fuel Type', icon: 'fas fa-sort-down' },
+        { text: 'Transmission', icon: 'fas fa-sort-down' },
+        { text: 'Status', icon: 'fas fa-sort-down' },
+        { text: 'Search'}
+      ],
+
       // footer lists
       footerLists : [
         {
@@ -49,15 +61,15 @@ export default {
 </script>
 
 <template>
-    <!-- ciclo la componenete  -->
+    
     <AppHeader :menuItems="menuItems"/>
   
 
   
-    <AppMain />
+    <AppMain :filters="filters" />
   
 
-    <!-- ciclo la componenete -->
+    
     <AppFooter :footerLists="footerLists" :formInput="formInput"/>
   
   
