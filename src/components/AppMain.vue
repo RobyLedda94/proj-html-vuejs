@@ -6,6 +6,9 @@ export default {
         filters: {
             type: Array,
         },
+        vehicles: {
+            type: Array,
+        },
     }
 }
 </script>
@@ -26,57 +29,12 @@ export default {
                 </div>
             </div>
             <div class="row g-0 my-3">
-                <div class="col-12 col-md-4 col-lg-2">
+                <div class="col-12 col-md-4 col-lg-2" v-for="vehicle in vehicles" :key="vehicle.title">
                     <div class="content-main-top-type">
-                        <img class="img-fluid" src="../assets/cabrio.jpg"/>
+                        <img class="img-fluid" :src="vehicle.image"/>
                         <div class="text-content">
-                            <p class="title mb-0">Cabrio</p>
-                            <p class="listings mb-2">3 Listings</p>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-12 col-md-4 col-lg-2">
-                    <div class="content-main-top-type">
-                        <img class="img-fluid" src="../assets/coupe.jpg"/>
-                        <div class="text-content">
-                            <p class="title mb-0">Coupe</p>
-                            <p class="listings mb-2">0 Listings</p>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-12 col-md-4 col-lg-2">
-                    <div class="content-main-top-type">
-                        <img class="img-fluid" src="../assets/hatchback.jpg"/>
-                        <div class="text-content">
-                            <p class="title mb-0">Hatchback</p>
-                            <p class="listings mb-2">2 Listings</p>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-12 col-md-4 col-lg-2">
-                    <div class="content-main-top-type">
-                        <img class="img-fluid" src="../assets/pickup.jpg"/>
-                        <div class="text-content">
-                            <p class="title mb-0">Pick Up</p>
-                            <p class="listings mb-2">0 Listings</p>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-12 col-md-4 col-lg-2">
-                    <div class="content-main-top-type">
-                        <img class="img-fluid" src="../assets/sedan.jpg"/>
-                        <div class="text-content">
-                            <p class="title mb-0">Sedan</p>
-                            <p class="listings mb-2">3 Listings</p>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-12 col-md-4 col-lg-2">
-                    <div class="content-main-top-type">
-                        <img class="img-fluid" src="../assets/suv.jpg"/>
-                        <div class="text-content">
-                            <p class="title mb-0">Suv</p>
-                            <p class="listings mb-2">4 Listings</p>
+                            <p class="title mb-0">{{ vehicle.title }}</p>
+                            <p class="listings mb-2">{{ vehicle.listings }} Listings</p>
                         </div>
                     </div>
                 </div>

@@ -36,6 +36,15 @@ export default {
         { text: 'Search'}
       ],
 
+      vehicles: [
+        { title: 'Cabrio', image: '/img/cabrio.jpg', listings: '3' },
+        { title: 'Coupe', image: '/img/coupe.jpg', listings: '0' },
+        { title: 'Hatchback', image: '/img/hatchback.jpg', listings: '2' },
+        { title: 'Pick Up', image: '/img/pickup.jpg', listings: '0' },
+        { title: 'Sedan', image: '/img/sedan.jpg', listings: '3' },
+        { title: 'Suv', image: '/img/suv.jpg', listings: '4' }
+      ],
+
       // footer lists
       footerLists : [
         {
@@ -66,7 +75,7 @@ export default {
   
 
   
-    <AppMain :filters="filters" />
+    <AppMain :filters="filters" :vehicles="vehicles"/>
   
 
     
