@@ -45,6 +45,17 @@ export default {
         { title: 'Suv', image: '/img/suv.jpg', listings: '4' }
       ],
 
+      cards: [
+      { model: 'BMW M9', type: 'Cabrio', image: '/img/bmw-8-series-convertible.jpg', price: '34,000', brand: 'BMW', fuel: 'Electric' },
+      { model: 'BMW M8', type: 'Cabrio', image: '/img/bmwimage2.jpg', price: '34,000', brand: 'BMW', fuel: 'Diesel' },
+      { model: 'BMW M4', type: 'Cabrio', image: '/img/bmwimage3.jpg', price: '34,000', brand: 'BMW', fuel: 'Gasoline' },
+      { model: 'Seat Ibiza', type: 'Hatchback', image: '/img/seat1.jpg', price: '27,000', brand: 'Seat', fuel: 'Electric' },
+      { model: 'Seat Arona', type: 'SUV', image: '/img/seat2.jpg', price: '68,000', brand: 'Seat', fuel: 'Gasoline' },
+      { model: 'Volswagen Taigo', type: 'SUV', image: '/img/vw-1.jpg', price: '52,000', brand: 'Volswagen', fuel: 'Electric' },
+      { model: 'Volswagen T-Cross', type: 'SUV', image: '/img/vw-2.jpg', price: '47,000', brand: 'Volswagen', fuel: 'Diesel' },
+      { model: 'Volswagen Passat', type: 'Sedan', image: '/img/vw-3.jpg', price: '32,000', brand: 'Volswagen', fuel: 'Diesel' }
+      ],
+
       // footer lists
       footerLists : [
         {
@@ -75,7 +86,7 @@ export default {
   
 
   
-    <AppMain :filters="filters" :vehicles="vehicles"/>
+    <AppMain :filters="filters" :vehicles="vehicles" :cards="cards"/>
   
 
     

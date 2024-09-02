@@ -9,6 +9,9 @@ export default {
         vehicles: {
             type: Array,
         },
+        cards: {
+            type: Array,
+        }
     }
 }
 </script>
@@ -29,7 +32,7 @@ export default {
                 </div>
             </div>
             <div class="row g-0 my-3">
-                <div class="col-12 col-md-4 col-lg-2" v-for="vehicle in vehicles" :key="vehicle.title">
+                <div class="col-12 col-md-4 col-lg-2" v-for="vehicle in vehicles" :key="vehicle">
                     <div class="content-main-top-type">
                         <img class="img-fluid" :src="vehicle.image"/>
                         <div class="text-content">
@@ -41,23 +44,23 @@ export default {
             </div>
             <!-- parte main center carte auto -->
             <div class="row g-0 mb-3">
-                <div class="col-12 col-md-6 col-lg-3">
+                <div class="col-12 col-md-6 col-lg-3" v-for="card in cards" :key="card">
                     <div class="content-main-center-card">
-                        <img class='card-img-top' src="../assets/bmw-8-series-convertible-technical-data-sp-desktop-400x300.jpg"/>
+                        <img class='card-img-top' :src="card.image"/>
                         <div class="card-body">
                             <div class='card-description'>
-                                <p class='model'>BMW M9<i class="fas fa-check"></i></p>
-                                <p>Cabrio</p>   
+                                <p class='model'>{{ card.model }}<i class="fas fa-check"></i></p>
+                                <p>{{ card.type }}</p>   
                             </div>
                             <div class="card-details d-flex">
                                 <div class='price'>
-                                    <i class="fas fa-dollar-sign"></i> 34,000
+                                    <i class="fas fa-dollar-sign"></i> {{ card.price }}
                                 </div>
                                 <div class='brand'>
-                                    <i class="fas fa-car"></i> BMW
+                                    <i class="fas fa-car"></i> {{ card.brand }}
                                 </div>
                                 <div class='fuel'>
-                                    <i class="fas fa-gas-pump"></i> Electric
+                                    <i class="fas fa-gas-pump"></i> {{ card.fuel }}
                                 </div>
                                 <div class='heart'>
                                     <i class="fas fa-heart"></i>
@@ -66,7 +69,7 @@ export default {
                         </div>
                     </div>
                 </div>
-                <div class="col-12 col-md-6 col-lg-3">
+                <!-- <div class="col-12 col-md-6 col-lg-3">
                     <div class="content-main-center-card">
                         <img class='card-img-top' src="../assets/bmw88-400x300.jpg"/>
                         <div class="card-body">
@@ -242,7 +245,7 @@ export default {
                             </div>
                         </div>
                     </div>
-                </div>
+                </div> -->
                 <div class="col-12 mt-2">
                     <div class="content-main text-center">
                         <button type="button" class="buttons btn-dark">Show All Cars<i class="fas fa-arrow-right" ></i></button>
